@@ -11,7 +11,7 @@
 CheckPoints
 =============
 
-###Get the local ID for volume level  - Line 133
+### Get the local ID for volume level  - Line 133
                 
 ----
 
@@ -28,7 +28,7 @@ CheckPoints
 	printf("Part name: %ws, Part LocalId: %d \n", *pwszPartName ? pwszPartName : L"(Unnamed)", pwszPartLocalId); // <------ Get your ID
 ```
 
-###Check the Local Id - Line 159
+### Check the Local Id - Line 159
                 
 ----
 ```c++
@@ -45,7 +45,7 @@ pVolume->Release();
 is_audio_in = false;
 ```
 
-###Handle volume level - Line 273
+### Handle volume level - Line 273
                 
 ----
 ```c++
